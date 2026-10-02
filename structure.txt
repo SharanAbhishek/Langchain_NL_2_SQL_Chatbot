@@ -1,0 +1,26 @@
+sql_chatbot/
+│
+├── app.py
+├── agent.py          ← LLM + SQL tools + agent
+├── database.py       ← MySQL business DB connection
+├── conversation_store.py
+└── .env
+
+---------------
+2.
+
+agent.py
+│
+├── init_chat_model()
+│
+├── list_tables()
+├── get_table_schema()
+├── execute_sql()
+│
+├── tools
+│
+├── system prompt
+│
+├── MySQL checkpointer
+│
+└── create_agent()

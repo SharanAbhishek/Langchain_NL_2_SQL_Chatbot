@@ -1,0 +1,6 @@
+# pip install -U langchain langgraph
+#pip install -U langgraph-checkpoint-mysql
+#pip install -U langchain-google-genai
+#pip install -U sqlalchemy pymysql
+#pip install -U streamlit python-dotenv 
+#pip install langgraph-checkpoint-mysql
